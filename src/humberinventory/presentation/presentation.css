@@ -1,0 +1,128 @@
+.root {
+    -fx-background-image: url("images/background.jpg");
+    -fx-background-size: cover;
+}
+/*
+Inventory View
+*/
+.hbtop 
+{
+    -fx-background-color: rgba(255, 255, 255, 0.8);
+}
+
+.gPane 
+{
+    -fx-background-color: rgba(255, 255, 255, 0.7);
+    -fx-padding: 30px;
+    -fx-spacing: 30px;
+    -fx-border-insets: 30px;
+    -fx-background-insets: 30px;
+    -fx-background-radius: 15px;
+    -fx-alignment: center;
+}
+.gp 
+{
+    -fx-background-color: rgba(255, 255, 255, 0.7);
+    -fx-padding: 30px 120px 100px 120px;
+    -fx-spacing: 30px;
+    -fx-border-insets: 50px;
+    -fx-background-insets: 30px;
+    -fx-background-radius: 15px;
+    -fx-alignment: center;
+}
+.vb 
+{
+    -fx-background-color: rgba(255, 255, 255, 0.7);
+    -fx-padding: 10px 20px 10px 20px;
+    -fx-spacing: 8px;
+    -fx-border-insets: 10px;
+    -fx-background-insets: 10px;
+    -fx-background-radius: 10px;
+    -fx-alignment: center;
+}
+.table 
+{
+    -fx-background-color: rgba(255, 255, 255, 0.7);
+}
+.addProduct {
+    -fx-background-image: url("images/addproduct.png");
+    -fx-background-size: cover;
+    -fx-min-height: 60px;
+    -fx-background-position: center 9px;
+    -fx-background-size: 30px 30px;
+    -fx-min-width: 150px;
+    -fx-background-repeat: no-repeat;
+    -fx-alignment:BOTTOM_CENTER;
+}
+.updateProduct {
+    -fx-background-image: url("images/updateproduct.png");
+    -fx-background-size: cover;
+    -fx-min-height: 60px;
+    -fx-background-position: center 9px;
+    -fx-background-size: 30px 30px;
+    -fx-min-width: 150px;
+    -fx-background-repeat: no-repeat;
+    -fx-alignment:BOTTOM_CENTER;
+}
+.deleteProduct {
+    -fx-background-image: url("images/deleteproduct.png");
+    -fx-background-size: cover;
+    -fx-min-height: 60px;
+    -fx-background-position: center 4px;
+    -fx-background-size: 36px 36px;
+    -fx-min-width: 150px;
+    -fx-background-repeat: no-repeat;
+    -fx-alignment:BOTTOM_CENTER;
+}
+.ViewSuppliers {
+    -fx-background-image: url("images/viewsupplier.png");
+    -fx-background-size: cover;
+    -fx-min-height: 60px;
+    -fx-background-position: center 4px;
+    -fx-background-size: 42px 42px;
+    -fx-min-width: 150px;
+    -fx-background-repeat: no-repeat;
+    -fx-alignment:BOTTOM_CENTER;
+}
+/*
+Inventory View End
+*/
+
+
+/*
+Supplier view
+*/
+.addSupplier {
+    -fx-background-image: url("images/addsupplier.png");
+    -fx-background-size: cover;
+    -fx-min-height: 60px;
+    -fx-background-position: center 9px;
+    -fx-background-size: 30px 30px;
+    -fx-min-width: 150px;
+    -fx-background-repeat: no-repeat;
+    -fx-alignment:BOTTOM_CENTER;
+}
+.updateSupplier {
+    -fx-background-image: url("images/updatesupplier.png");
+    -fx-background-size: cover;
+    -fx-min-height: 60px;
+    -fx-background-position: center 9px;
+    -fx-background-size: 30px 30px;
+    -fx-min-width: 150px;
+    -fx-background-repeat: no-repeat;
+    -fx-alignment:BOTTOM_CENTER;
+}
+.deleteSupplier {
+    -fx-background-image: url("images/deletesupplier.png");
+    -fx-background-size: cover;
+    -fx-min-height: 60px;
+    -fx-background-position: center 4px;
+    -fx-background-size: 36px 36px;
+    -fx-min-width: 150px;
+    -fx-background-repeat: no-repeat;
+    -fx-alignment:BOTTOM_CENTER;
+}
+
+/*
+Suppplier view End
+*/
